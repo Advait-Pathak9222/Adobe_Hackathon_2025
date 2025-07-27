@@ -1,0 +1,116 @@
+{
+  "title": {
+    "en": "Parsippany -Troy Hills STEM Pathways"
+  },
+  "outline": [
+    {
+      "level": "H1",
+      "text": {
+        "en": "Parsippany -Troy Hills STEM Pathways"
+      },
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "PATHWAY OPTIONS"
+      },
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "REGULAR PATHWAY"
+      },
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "DISTINCTION PATHWAY"
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "4 credits of STEM-designated electives"
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Goals"
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "promote the enjoyment of these studies in high school."
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Expose students to potential career opportunities in the field."
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "STEM careers."
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "future opportunities."
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "the school building."
+      },
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "of study in a specialized area."
+      },
+      "page": 1
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "headers": {
+        "en": [
+          "Parsippany -Troy Hills STEM Pathways"
+        ]
+      },
+      "data": []
+    },
+    {
+      "page": 1,
+      "headers": {
+        "en": [
+          "PATHWAY OPTIONS"
+        ]
+      },
+      "data": [
+        [
+          "REGULAR PATHWAY\n● 4 credits of Math\n● 4 credits of Science\n● 4 credits of STEM-designated electives\n● Maintain an overall 2.85 GPA\n● Participate in a minimum of 3 STEM\npresentations/conferences each year\nwith a required minimum total of 12\npresentations/conferences throughout\nthe 4 years. *\n● Join and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance. -",
+          "DISTINCTION PATHWAY\n● 4 credits of Math - At least one math\ncourse should be an AP Math class.\n● 4 credits of Science- At least one\nscience course should be an AP\nScience class.\n● 4 credits of STEM-designated electives\n- One must be a Computer\nScience/Technology Class\n● Maintain an overall 3.5 GPA\n● Participate in a minimum of 3 STEM\npresentations/conferences a year with a\nrequired minimum total of 12\npresentations/conferences throughout\nthe 4 years.\n● Join and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance.\n● Either participate in an internship or\ndesign and implement a community\nimpact project."
+        ]
+      ]
+    }
+  ]
+}

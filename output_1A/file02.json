@@ -1,0 +1,532 @@
+{
+  "title": {
+    "en": "Foundation Level Extensions"
+  },
+  "outline": [
+    {
+      "level": "H1",
+      "text": {
+        "en": "Foundation Level Extensions"
+      },
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "Revision History"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Remarks"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "0 1"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "18 JUNE 2013"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Initial version"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "0 2"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "23 JULY 2013"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "WG reviewed and confirmed"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "0 3"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "6 NOV 2013"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "amended population and diagram"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "0 7"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "11 DEC 2013"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Amended Business Outcomes and Chapters matching"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "0 8"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "20 DEC 2013"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Working group updates on 0.7"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "1 0"
+      },
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "31 MAY 2014"
+      },
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "Table of Contents"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Revision History"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Table of Contents"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Introduction to the Foundation Level Extensions"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Introduction to Foundation Level Agile Tester Extension"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Intended Audience"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Career Paths for Testers"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Learning Objectives"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Entry Requirements"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Structure and Course Duration"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Keeping It Current"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Agile Tester Syllabus"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "10"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Business Outcomes"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Content"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "References"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "12"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Trademarks"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Documents and Web Sites"
+      },
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "This document was formally approved for release by the General Assembly of the ISTQB® on May 31,"
+      },
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "Introduction to the Foundation Level Extensions"
+      },
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "Introduction to Foundation Level Agile Tester Extension"
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "methodologies specific to their role."
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Agile Tester qualification is aimed at four main groups of professionals:"
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "like to get an Agile Tester Certificate."
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "environment"
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "methods and techniques in their day to day job in Agile projects."
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "consultants"
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Tester Foundation Level acronym CTFL-AT."
+      },
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "chapter within each particular extension syllabus."
+      },
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "obtained the ISTQB Foundation Level certificate."
+      },
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Baseline: Foundation"
+      },
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "Extension: Agile Tester"
+      },
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "Overview of the Foundation Level Extension –"
+      },
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "Syllabus"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 1"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 2"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 3"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 4"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 5"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 6"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "AFM 7"
+      },
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "skills to working effectively within an Agile team and environment."
+      },
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "References"
+      },
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "IS T QB"
+      },
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "is a registered trademark of the International Software Testing Qualifications Board"
+      },
+      "page": 12
+    }
+  ],
+  "tables": [
+    {
+      "page": 3,
+      "headers": {
+        "en": [
+          "Version",
+          "Date",
+          "Remarks"
+        ]
+      },
+      "data": [
+        [
+          "0.1",
+          "18 JUNE 2013",
+          "Initial version"
+        ],
+        [
+          "0.2",
+          "23 JULY 2013",
+          "WG reviewed and confirmed"
+        ],
+        [
+          "0.3",
+          "6 NOV 2013",
+          "amended population and diagram"
+        ],
+        [
+          "0.7",
+          "11 DEC 2013",
+          "Amended Business Outcomes and Chapters matching"
+        ],
+        [
+          "0.8",
+          "20 DEC 2013",
+          "Working group updates on 0.7"
+        ],
+        [
+          "1.0",
+          "31 MAY 2014",
+          "GA release for Agile Extension"
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "headers": {
+        "en": [
+          "Syllabus",
+          "Days"
+        ]
+      },
+      "data": [
+        [
+          "Baseline: Foundation",
+          "3"
+        ],
+        [
+          "Extension: Agile Tester",
+          "2"
+        ]
+      ]
+    }
+  ]
+}
