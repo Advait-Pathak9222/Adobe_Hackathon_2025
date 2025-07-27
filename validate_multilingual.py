@@ -181,7 +181,7 @@ def main():
     
     validator = MultilingualValidator()
     
-    print("🔍 Multilingual Text Validation")
+    print("[+] Multilingual Text Validation")
     print("=" * 40)
     
     all_results = []
@@ -192,17 +192,17 @@ def main():
         for filename in os.listdir(args.input_dir):
             if filename.endswith('.json'):
                 file_path = os.path.join(args.input_dir, filename)
-                print(f"\n📄 Validating: {filename}")
+                print(f"\n--- Validating: {filename}")
                 
                 result = validator.validate_json_file(file_path)
                 all_results.append(result)
                 total_files += 1
                 
                 if "error" in result:
-                    print(f"❌ Error: {result['error']}")
+                    print(f"[X] Error: {result['error']}")
                     continue
                 
-                print(f"  📊 Results:")
+                print(f" Results:")
                 print(f"    - Total texts: {result['total_texts']}")
                 print(f"    - Valid texts: {result['valid_texts']}")
                 print(f"    - Garbled texts: {result['garbled_texts']}")
@@ -231,7 +231,7 @@ def main():
     with open(args.output_file, 'w', encoding='utf-8') as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
     
-    print(f"\n📊 Summary:")
+    print(f"\n--- Summary:")
     print(f"  - Files processed: {total_files}")
     print(f"  - Files with issues: {summary['files_with_issues']}")
     print(f"  - Total issues found: {total_issues}")
@@ -240,7 +240,7 @@ def main():
     
     # Flag problematic files
     if summary['files_with_issues'] > 0:
-        print(f"\n⚠️  Files with multilingual issues:")
+        print(f"\n[!] Files with multilingual issues:")
         for result in all_results:
             if result.get('garbled_texts', 0) > 0:
                 print(f"  - {os.path.basename(result['file'])}: {result['garbled_texts']} issues")

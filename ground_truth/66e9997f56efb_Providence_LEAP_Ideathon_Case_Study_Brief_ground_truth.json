@@ -1,0 +1,153 @@
+{
+  "pdf_name": "66e9997f56efb_Providence_LEAP_Ideathon_Case_Study_Brief.json",
+  "title": {
+    "en": "MANUAL_TITLE_HERE",
+    "hi": "मैनुअल_शीर्षक_यहाँ",
+    "mr": "मॅन्युअल_शीर्षक_इथे"
+  },
+  "outline": [
+    {
+      "level": "H2",
+      "text": {
+        "en": "MANUAL_HEADING_1_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_1_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_1_मराठी"
+      },
+      "page": 2,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H2",
+      "text": {
+        "en": "MANUAL_HEADING_2_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_2_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_2_मराठी"
+      },
+      "page": 2,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H1",
+      "text": {
+        "en": "MANUAL_HEADING_3_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_3_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_3_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_4_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_4_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_4_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_5_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_5_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_5_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H1",
+      "text": {
+        "en": "MANUAL_HEADING_6_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_6_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_6_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_7_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_7_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_7_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_8_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_8_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_8_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_9_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_9_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_9_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_10_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_10_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_10_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_11_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_11_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_11_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_12_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_12_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_12_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    },
+    {
+      "level": "H3",
+      "text": {
+        "en": "MANUAL_HEADING_13_ENGLISH",
+        "hi": "मैनुअल_शीर्षक_13_हिंदी",
+        "mr": "मॅन्युअल_शीर्षक_13_मराठी"
+      },
+      "page": 3,
+      "is_correct": true,
+      "notes": "Manual annotation notes here"
+    }
+  ]
+}

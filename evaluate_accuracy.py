@@ -302,11 +302,11 @@ def main():
     
     args = parser.parse_args()
     
-    print("🔍 Adobe Hackathon Evaluation Pipeline")
+    print(" Adobe Hackathon Evaluation Pipeline")
     print("=" * 50)
     
     if args.mode in ["r1a", "both"]:
-        print("\n📊 Evaluating Round 1A (Heading Detection)")
+        print("\n Evaluating Round 1A (Heading Detection)")
         print("-" * 40)
         
         r1a_evaluator = R1AEvaluator()
@@ -316,7 +316,7 @@ def main():
         
         for output_file in r1a_outputs:
             output_path = os.path.join(args.output_1a_dir, output_file)
-            print(f"\n📄 Evaluating: {output_file}")
+            print(f"\n Evaluating: {output_file}")
             
             # Get corresponding ground truth
             gt_key = output_file
@@ -329,7 +329,7 @@ def main():
             multilingual_metrics = r1a_evaluator.evaluate_multilingual_correctness(output_path)
             
             # Print results
-            print(f"  📈 Heading Detection:")
+            print(f"   Heading Detection:")
             print(f"    - Total headings: {heading_metrics.get('total_headings', 0)}")
             print(f"    - Title detected: {heading_metrics.get('title_detected', False)}")
             print(f"    - Title languages: {heading_metrics.get('title_languages', [])}")
@@ -339,7 +339,7 @@ def main():
                 print(f"    - Recall: {heading_metrics['recall']:.3f}")
                 print(f"    - F1 Score: {heading_metrics['f1_score']:.3f}")
             
-            print(f"  🌐 Multilingual Correctness:")
+            print(f"   Multilingual Correctness:")
             print(f"    - Valid texts: {multilingual_metrics.get('valid_texts', 0)}/{multilingual_metrics.get('total_texts', 0)}")
             print(f"    - Accuracy: {multilingual_metrics.get('accuracy', 0):.3f}")
             
@@ -350,7 +350,7 @@ def main():
                         print(f"      * {issue['type']} ({issue['lang']}): {issue['text'][:50]}...")
     
     if args.mode in ["r1b", "both"]:
-        print("\n📊 Evaluating Round 1B (Document Intelligence)")
+        print("\n Evaluating Round 1B (Document Intelligence)")
         print("-" * 40)
         
         r1b_evaluator = R1BEvaluator()
@@ -359,7 +359,7 @@ def main():
         
         for output_file in r1b_outputs:
             output_path = os.path.join(args.output_1b_dir, output_file)
-            print(f"\n📄 Evaluating: {output_file}")
+            print(f"\n Evaluating: {output_file}")
             
             # Evaluate semantic relevance
             relevance_metrics = r1b_evaluator.evaluate_semantic_relevance(
@@ -372,12 +372,12 @@ def main():
             bilingual_metrics = r1b_evaluator.evaluate_bilingual_detection(output_path)
             
             # Print results
-            print(f"  🎯 Semantic Relevance:")
+            print(f"   Semantic Relevance:")
             print(f"    - Total sections: {relevance_metrics.get('total_sections', 0)}")
             print(f"    - Keyword matches: {relevance_metrics.get('keyword_matches', 0)}")
             print(f"    - Keyword accuracy: {relevance_metrics.get('keyword_accuracy', 0):.3f}")
             
-            print(f"  🌐 Bilingual Detection:")
+            print(f"   Bilingual Detection:")
             print(f"    - Bilingual sections: {bilingual_metrics.get('bilingual_sections', 0)}")
             print(f"    - English only: {bilingual_metrics.get('english_only', 0)}")
             print(f"    - Devanagari only: {bilingual_metrics.get('devangari_only', 0)}")
@@ -386,8 +386,8 @@ def main():
             if relevance_metrics.get('multilingual_issues'):
                 print(f"    - Multilingual issues: {relevance_metrics['multilingual_issues']}")
     
-    print("\n✅ Evaluation Complete!")
-    print("\n📋 Summary:")
+    print("\n Evaluation Complete!")
+    print("\n Summary:")
     print("- Check for garbled Unicode in Devanagari text")
     print("- Verify heading detection accuracy")
     print("- Assess semantic relevance for R1B")

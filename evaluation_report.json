@@ -1,13 +1,18 @@
 {
-  "timestamp": "2025-07-26T17:47:42.336005",
+  "timestamp": "2025-07-27T10:31:59.749167",
   "evaluation_summary": {},
   "r1a_results": {
-    "files_processed": 2,
-    "problematic_files": []
+    "files_processed": 3,
+    "problematic_files": [
+      "gra bi she.json: No headings detected",
+      "gra bi she.json: No title detected"
+    ]
   },
   "r1b_results": {
-    "files_processed": 1
+    "files_processed": 2
   },
   "multilingual_validation": {},
-  "recommendations": []
+  "recommendations": [
+    "Fix heading detection in problematic R1A files"
+  ]
 }

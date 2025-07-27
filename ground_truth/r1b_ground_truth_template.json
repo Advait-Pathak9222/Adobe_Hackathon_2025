@@ -1,0 +1,28 @@
+{
+  "persona": "PhD Researcher in Computational Biology",
+  "job_description": "Review GNNs for drug discovery",
+  "expected_sections": [
+    {
+      "document": "sample_research_paper.pdf",
+      "page_number": 1,
+      "section_title": {
+        "en": "Introduction to Graph Neural Networks",
+        "hi": "ग्राफ न्यूरल नेटवर्क का परिचय",
+        "mr": "ग्राफ न्यूरल नेटवर्कचा परिचय"
+      },
+      "expected_rank": 1,
+      "relevance_score": 0.95,
+      "keywords_present": [
+        "gnn",
+        "neural",
+        "graph"
+      ],
+      "notes": "Highly relevant section for the persona"
+    }
+  ],
+  "evaluation_criteria": {
+    "semantic_relevance_threshold": 0.7,
+    "multilingual_preservation": true,
+    "ranking_accuracy": true
+  }
+}
